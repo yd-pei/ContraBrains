@@ -3,3 +3,6 @@ ROM/Contra-NES.nes
 ROM/*.deb
 fceux/*
 .idea/*
+ppo.py
+test/RAM_test.py
+test/test_env_info.py
