@@ -1,8 +1,9 @@
 information/readme.md
-ROM/Contra-NES.nes
 ROM/*.deb
 fceux/*
 .idea/*
 ppo.py
 test/RAM_test.py
 test/test_env_info.py
+contraforce_torch/__pycache__
+contraforce_sb3
