@@ -3,7 +3,6 @@ ROM/*.deb
 fceux/*
 .idea/*
 ppo.py
-test/RAM_test.py
-test/test_env_info.py
+test/*
 contraforce_torch/__pycache__
 contraforce_sb3
