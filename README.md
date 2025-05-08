@@ -6,15 +6,15 @@ The Design and Implementation of a ContraForce Agent based on Deep Reinforcement
 ## Content
 
 - [Intall](#Install)
-- [Description and Solution](#Description-and-Solution)
-	-[Problem statement](#Problem-statement)
-	-[Related solutions to similar problems](#Related-solutions-to-similar-problems)
-	-[State Space Description](#State-Space-Description)
-        -[Informal Description](#Informal-Description)
-        -[Formal Description](#Formal-Description)
-	-[Solution Method](#Solution-Method)
-        -[PPO](#ppo)
-        -[Training Pipeline](#training-pipeline)
+- [Description and Solution](#Description-and-Solution) <br>
+	-[Problem statement](#Problem-statement) <br>
+	-[Related solutions to similar problems](#Related-solutions-to-similar-problems)<br>
+	-[State Space Description](#State-Space-Description)<br>
+        -[Informal Description](#Informal-Description)<br>
+        -[Formal Description](#Formal-Description)<br>
+	-[Solution Method](#Solution-Method)<br>
+        -[PPO](#ppo)<br>
+        -[Training Pipeline](#training-pipeline)<br>
 - [Result](#Result)
 
 ## Install
