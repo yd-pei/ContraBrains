@@ -32,6 +32,8 @@ The Design and Implementation of a ContraForce Agent based on Deep Reinforcement
 ```
 $ git clone https://github.com/yd-pei/ContraBrains.git
 $ cd ./ContraBrains
+$ wget https://pics1.obs.myhuaweicloud.com/GraduateGW/AI_proj/stable-retro.zip
+$ unzip stable-retro.zip -d .
 $ bash ./setup.sh
 ```
 
