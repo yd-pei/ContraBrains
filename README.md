@@ -6,11 +6,15 @@ The Design and Implementation of a ContraForce Agent based on Deep Reinforcement
 ## Content
 
 - [Intall](#Install)
-- [Description and Solution](#Description and Solution)
-	-[Problem statement](#Problem statement)
-	-[Related solutions to similar problems](#Related solutions to similar problems)
-	-[State Space Description](#State Space Description)
-	-[Solution Method](#Solution Method)
+- [Description and Solution](#Description-and-Solution)
+	-[Problem statement](#Problem-statement)
+	-[Related solutions to similar problems](#Related-solutions-to-similar-problems)
+	-[State Space Description](#State-Space-Description)
+        -[Informal Description](#Informal-Description)
+        -[Formal Description](#Formal-Description)
+	-[Solution Method](#Solution-Method)
+        -[PPO](#ppo)
+        -[Training Pipeline](#training-pipeline)
 - [Result](#Result)
 
 ## Install
@@ -116,7 +120,7 @@ Instant rewards | $ r^{\text{raw}}_t =   r_{\text{move},t} +   r_{\text{score},t
 scale up| $r_t = \frac{r^{\text{raw}}_t}{10}$
 ### Solution method
 In this project, I formulate the game-playing task as a Markov Decision Process (MDP) and solve it using Proximal Policy Optimization (PPO). Here we focus on PPO and training pipeling.
-### PPO
+#### PPO
 I apply PPO due to its stability and suitability for high-dimensional action and observation spaces. PPO optimizes the policy by constraining updates within a trust region, thus ensuring incremental improvements and reducing performance instability.
 In the project, two neural networks in our PPO architecture is maintained.
 
